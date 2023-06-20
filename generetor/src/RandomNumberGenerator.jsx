@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import './RandomNumberGenerator.css'; // Импортируем файл стилей
+import './RandomNumberGenerator.css'; // Import the style file
 
 function RandomNumberGenerator() {
     const [randomValues, setRandomValues] = useState([]);
-    const [length, setLength] = useState(16); // Начальное значение длины генерируемого значения
+    const [length, setLength] = useState(16); // Initial value for the length of the generated value
     const [colors, setColors] = useState([]);
 
     useEffect(() => {
